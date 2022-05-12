@@ -3,6 +3,8 @@
 MAPR_HOST=maprdemo.mapr.io 
 MAPR_USER=mapr
 MAPR_GROUP=mapr
+service ssh start
+echo "ssh accessible using: ssh -p 2222 root@localhost"
 
 echo "${MAPR_HOST}" > /etc/hostname 
 
